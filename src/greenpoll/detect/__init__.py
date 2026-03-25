@@ -1,0 +1,1 @@
+"""detect module for GreenPoll."""

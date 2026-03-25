@@ -1,0 +1,33 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+
+# Copyrighted research papers (do not distribute)
+paper/references/*.pdf
+
+# OS files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & model artifacts (will be large)
+data/
+datasets/
+runs/
+weights/
+*.pt
+*.onnx
+results/
